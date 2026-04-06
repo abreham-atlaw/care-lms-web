@@ -10,11 +10,10 @@ export default defineComponent({
 })
 </script>
 <template>
-<div className="w-full h-full flex bg-primaryDark text-secondary">
+<div className="w-full h-screen flex bg-primaryDark text-secondary">
 		<div class="m-auto">
-			<LoadingSpinnerVue class="m-auto" color="yellow" :size="200"/>
-			<p class="text-[200%] font-extrabold text-center mt-24">{{"strLoading"}}...</p>
+			<LoadingSpinnerVue class="m-auto" color="white" :size="200"/>
+			<p class="text-[200%] font-extrabold text-center mt-24">Loading...</p>
 		</div>
-
 </div>
 </template>

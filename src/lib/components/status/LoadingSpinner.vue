@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
-import {BreedingRhombusSpinner, FlowerSpinner, OrbitSpinner} from 'epic-spinners';
+import {BreedingRhombusSpinner, FlowerSpinner, OrbitSpinner, RadarSpinner} from 'epic-spinners';
 // import { FlowerSpinner } from 'epic-spinners/types';
 
 
@@ -20,13 +20,13 @@ export default defineComponent({
 	},
 
 	components: {
-		BreedingRhombusSpinner
+		RadarSpinner
 	}
 });
 </script>
 
 <template>
-	<BreedingRhombusSpinner
+	<RadarSpinner
 			 :size="size"
 			 :color="color"
 			 />
